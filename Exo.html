@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Magasin William Bréhier</title>
+        <link href='CssMagasin.css' rel='stylesheet'>
+    </head>
+    <body>
+        <div class = menu>
+        <h1>Magasin</h1>
+
+     
+        <form>
+        <div class = tableau>
+        
+            <label for="quantity1">Petite ration</label><span class = prix> 2$</span>
+            <input type="number" id="quantity1" name="quantity1" value=0 min="0" max="100" oninput="calculer()"  ><br>
+            <div class = sousTotal id='sousTotal'></div><br>
+            
+            
+            <label for="quantity2">Grosse ration</label><span class = prix> 8$</span>
+            <input type="number" id="quantity2" name="quantity2" value=0 min="0" max="15" oninput="calculer()" ><br>
+            <div class = sousTotal id='sousTotal2'></div><br>
+            
+            <label for="quantity3">Epée</label><span class = prix> 20$</span>
+            <input type="number" id="quantity3" name="quantity3" value=0 min="0" max="15" oninput="calculer()" ><br>
+            <div class = sousTotal id='sousTotal3'></div><br>
+            
+            
+            <label for="quantity4">Bouclier</label><span class = prix> 15$</span>
+            <input type="number" id="quantity4" name="quantity4" value=0 min="0" max="15" oninput="calculer()"><br>
+            <div class = sousTotal id='sousTotal4'></div><br>
+            
+                   
+            <label for="quantity5">Potion</label><span class = prix> 5$</span>
+            <input type="number" id="quantity5" name="quantity5"value=0 min="0" max="15" oninput="calculer()" ><br>
+            <div class = sousTotal id='sousTotal5'></div><br>
+            
+            
+            <label for="quantity6">Sac de toile</label><span class = prix> 1$</span>
+            <input type="number" id="quantity6" name="quantity6" value=0 min="0" max="15" oninput="calculer()"><br>
+            <div class = sousTotal id='sousTotal6'></div><br>
+            
+        </div>
+        <div class= resultat>
+            <span class = total>Total : </span><div id="somme"></div><br><br>
+        </div>
+        <span id="quantity">Quantité :</span>
+            <span id='quantite' ></span><div id="quantite"></div><br><br>
+
+        <input type="button" id="bouton" value="Calculer" onclick="calculer()">
+        <input type="button" id="bouton" value="Vider le panier" onclick="vider()">
+
+
+        </div>
+
+
+            
+        <script src="MagasinWb.js">
+        </script>  
+        </form>
+    </body>
+
+</html>

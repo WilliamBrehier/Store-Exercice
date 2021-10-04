@@ -1,0 +1,42 @@
+h1{
+    font-weight: bold;
+    color: ivory;
+}
+.tableau{
+    color: honeydew;
+}
+.prix{
+    color: pink;
+}
+body{
+    background-image: url('Skyrim_MyCreation_AlchemyShop_730x411.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quantite{
+    display: flex;
+    flex-direction: row;
+    color: ivory;
+}
+.menu{
+    margin :auto;
+    width : 20%;
+    border : solid 2px;
+    border-radius: 5px;
+    border-color: lightcyan;
+    text-align: center;
+    
+}
+#quantite{
+    color: ivory;
+}
+#quantity{
+    color: ivory;
+}
+.total{
+    color: ivory;
+}
+.sousTotal{
+    text-align: center;
+
+}
